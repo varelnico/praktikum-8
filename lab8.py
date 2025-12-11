@@ -14,7 +14,7 @@ while True:
     except ValueError:
         print("Error: harus angka!")
 
-# Input operator
+# operator
 while True:
     operator = input("Masukkan operator (+, -, *, /): ")
 
@@ -30,11 +30,11 @@ while True:
         else:
             raise Exception("Operator tidak valid")
 
-        break  # keluar loop jika berhasil
+        break
 
     except ZeroDivisionError:
         print("Error: tidak bisa membagi dengan nol!")
     except Exception as e:
         print("Error:", e)
 
-print("Hasil:", hasil)
+print("Hasil:", hasil) 
